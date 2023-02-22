@@ -25,4 +25,4 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: FinalTECH Artifact
-        path: build/libs/*.jar
+        path: home/runner/work/FinalTECH/FinalTECH/target/FinalTECH-2.0-preview-2-shaded.jar
