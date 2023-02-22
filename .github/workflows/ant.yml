@@ -21,3 +21,8 @@ jobs:
         java-version: 1.17
     - name: Build with Maven
       run: mvn package --file pom.xml
+    - name: Upload Artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: FinalTECH Artifact
+        path: build/libs/*.jar
